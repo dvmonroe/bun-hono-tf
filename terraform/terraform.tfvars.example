@@ -1,0 +1,12 @@
+cloudflare_api_token = "your-cloudflare-api-token"
+cloudflare_zone_id   = "your-zone-id"
+domain_name          = "example.com"
+aws_region           = "us-west-2"
+project_name         = "project"
+environment          = "production"
+container_port       = 3000
+ecs_task_cpu         = 256
+ecs_task_memory      = 512
+ecs_service_desired_count = 2
+vpc_cidr             = "10.0.0.0/16"
+aws_profile          = "default" 
