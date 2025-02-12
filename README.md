@@ -7,7 +7,7 @@ This project demonstrates a production-ready setup for deploying a Hono applicat
 - **Hono Web Framework**: Fast, lightweight, and TypeScript-first web framework
 - **Bun Runtime**: High-performance JavaScript/TypeScript runtime
 - **Infrastructure as Code**: Complete AWS infrastructure using Terraform
-- **Production Ready**: Includes load balancing, auto-scaling, and HTTPS
+- **Production Ready**: Includes load balancing and HTTPS (could easily be modified to include auto-scaling)
 - **CloudFlare Integration**: DNS management and additional security features
 
 ## 🛠 Prerequisites
