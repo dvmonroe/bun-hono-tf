@@ -28,7 +28,7 @@ resource "aws_lb_target_group" "app" {
     healthy_threshold   = 2
     unhealthy_threshold = 3
     timeout             = 5
-    interval            = 500
+    interval            = 300
   }
 
   tags = {

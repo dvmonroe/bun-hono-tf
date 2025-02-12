@@ -1,9 +1,9 @@
 import { Hono } from 'hono'
-import { loggingMiddleware } from './middleware/logging'
+import { LoggingMiddleware } from './middleware/logging'
 
 const app = new Hono()
 
-app.use('*', loggingMiddleware)
+app.use('*', LoggingMiddleware())
 
 app.get('/', (c) => {
   return c.text('Hello World!')
