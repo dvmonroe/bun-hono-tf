@@ -77,6 +77,8 @@ Terraform will handle:
 
 ## 🏛 Architecture
 
+![AWS Infrastructure Architecture](./graph.png)
+
 - **VPC**: Isolated network with public and private subnets
 - **ECS Fargate**: Serverless container orchestration
 - **Application Load Balancer**: HTTP/HTTPS traffic handling
